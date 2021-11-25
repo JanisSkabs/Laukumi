@@ -18,9 +18,17 @@ if a=="T":
   print(S,'m2')
 elif a=="Tr":
   print('Trapece')
-  
+  k = int(input("ievadi   1.malas garumu: "))
+  j = int(input("ievadi 2. malas garumu: "))
+  u = int(input("Ievadi augstuma garumu:"))
+  S= (k+j)*u/2
+  print(S)
 elif a=="P":
   print('paralelograms')
+  n = int(input("ievadi  1. malas garumu: "))
+  e = int(input("ievadi augstuma vērtību: "))
+  S= n*e
+  print(S)
 elif a=="Ta":
   print('taisnstūris')
 elif a=="K":
