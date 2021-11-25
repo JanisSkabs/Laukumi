@@ -37,5 +37,12 @@ elif a=="Ta":
   print(S)
 elif a=="K":
   print('kvadrāts')
+  l = int(input("ievadi   malas garumu: "))
+  S= l*l
+  print(S)
+
 elif a=="R":
   print('riņķis')
+  R = float(input("ievadi   rādiusu: "))
+  S= R*R*3.14
+  print(S)
