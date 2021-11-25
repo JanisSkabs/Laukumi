@@ -31,6 +31,10 @@ elif a=="P":
   print(S)
 elif a=="Ta":
   print('taisnstūris')
+  w = int(input("ievadi   1.malas garumu: "))
+  e = int(input("ievadi 2. malas garumu: "))
+  S= w*e
+  print(S)
 elif a=="K":
   print('kvadrāts')
 elif a=="R":
