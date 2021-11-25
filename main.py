@@ -13,10 +13,9 @@ a=input('Ievadi burtu: ')
 if a=="T":
   print('Trīstūris')
   a = int(input("ievadi  a malas garumu: "))
-h = int(input("ievadi vērtību h: "))
-S= a * h / 2
-print(S)
-
+  h = int(input("ievadi vērtību h: "))
+  S= a * h / 2
+  print(S)
 elif a=="Tr":
   print('Trapece')
   
